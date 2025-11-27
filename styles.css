@@ -31,24 +31,27 @@ a:visited{
 .avatar{
 	height: 180px;
 	border-radius: 20%;
-	box-shadow: 0px 15px 14px 6px rgb(28, 59, 71); 
+	box-shadow: 0px 15px 14px 6px #1c3b47; 
 } 
 .info {
 	margin-bottom: 15px;
 	display: flex;
 }
 
-@media (max-width: 700px) {
+@media (width <= 700px) {
 	.info {
 		display: block;
 		text-align: center;
+	}
+	body {
+		color: aqua
 	}
 }
 .info-text {
 	margin-left: 20px;
 }
 .info p{
-	color:rgb(68, 69, 69);
+	color:#444545;
 	margin: 0;
 	font-style: italic;
 	font-weight: bold;
